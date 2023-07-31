@@ -11,38 +11,38 @@
                 width:160px;
             }
         </style>
+        <script src="math.js">
+        </script>
     </head>
     <body>
         <h1 style="font-style: oblique;">Random Dice Generator</h1>
-        <h4>Please select a die size below and click the "Generate" button to generate a random number for that sided die</h4>
+        <h4>Please click a die size below to generate a random number for that sided die</h4>
 
-        <button type="select">
+        <button onclick="numbergend4()">
             <img src="d4.jpg" alt="button to select 20 sided die"/>
           </button>
         
-        <button type="select">
+        <button onclick="numbergend6()" id="d4">
             <img src="d6.jpg" alt="button to select 20 sided die"/>
           </button>
         
-        <button type="select">
+        <button onclick="numbergend8()" id="d4">
             <img src="d8.jpg" alt="button to select 20 sided die"/>
           </button>
         
-        <button type="select">
+        <button onclick="numbergend10()" id="d4">
             <img src="d10.jpg" alt="button to select 20 sided die"/>
           </button>
         
-        <button type="select">
+        <button onclick="numbergend12()" id="d4">
             <img src="d12.jpg" alt="button to select 20 sided die"/>
           </button>
         
-        <button type="select">
+        <button onclick="numbergend20()" id="d4">
             <img src="d20.jpg" alt="button to select 20 sided die"/>
           </button><br><br>
         
-        <button style="font-size: 35px; height: auto;" type="text">
-            Generate
-        </button>
+        <p style="font-size: 40px;" id="output"></p>
 
     </body>
 </html>
